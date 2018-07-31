@@ -1,8 +1,9 @@
+import 'bootstrap';
+import './App.scss';
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import SearchBar from './components/search-bar/SearchBar';
 import ProductList from './components/product-list/ProductList';
-import './App.css';
 import { PrivateRoute } from 'react-router-with-props';
 import ProductDetail from './components/product-detail/ProductDetail';
 import {loadItems,loadItemDetail} from './actions/itemsActions';

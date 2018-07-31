@@ -4,6 +4,7 @@
 
 a:hover, .list-group-item:hover{
     color:#333;
+    cursor:pointer;
 }
 
 .list-group-item:last-of-type::before{

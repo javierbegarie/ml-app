@@ -1,6 +1,8 @@
+import './ProductList.scss';
 import React from 'react';
 import ProductItem from '../product-item/ProductItem';
 import Categories from '../categories/Categories';
+
 
 const ProductList = ({items=[],categories,click=f=>f}) => {
     return (

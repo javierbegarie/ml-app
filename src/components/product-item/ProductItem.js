@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProductItem.css';
+import './ProductItem.scss';
 import freeShippingIcon from '../../assets/ic_shipping.png';
 import {formatPrice} from '../../utils/utils';
 

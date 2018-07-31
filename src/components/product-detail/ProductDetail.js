@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './ProductDetail.css';
+import './ProductDetail.scss';
 import Categories from '../categories/Categories';
 import {formatPrice} from '../../utils/utils';
 
