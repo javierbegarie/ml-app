@@ -1,0 +1,31 @@
+.product-detail-image{
+    max-width: 100%;
+    height: auto;
+    margin:auto;
+}
+
+.product-detail-container{
+    background-color: #FFFFFF;
+    min-height: 85vh;
+}
+
+.product-detail-description{
+    font-size: 0.8em;
+    color:#999;
+}
+
+.product-detail-container > div{
+    flex:1;
+}
+
+.product-price{
+    font-size: 2.2em;
+}
+
+.product-price sup{
+    font-size: 60%;
+}
+
+.product-details-name{
+    font-size: 1.4em;
+}

@@ -1,0 +1,37 @@
+.list-group-item{
+    color:#333;
+}
+
+a:hover, .list-group-item:hover{
+    color:#333;
+}
+
+.list-group-item:last-of-type::before{
+    border-bottom:0px;
+}
+
+.list-group-item::before {
+    content : "";
+    position: absolute;
+    left    : 20px;
+    bottom  : 1px;
+    height  : 1px;
+    width   : calc(100% - 40px);
+    border-bottom:1px solid #F1F1F1;
+}
+
+.product-item-image-size{
+    width: 180px;
+    height: 180px;
+}
+
+.product-item-shipping-icon{
+    display: inline;
+    margin: 0 0 0px 5px;
+    position: relative;
+    bottom: 1px;
+}
+  
+.product-item-shipping-icon img{
+   width: 15px
+}
