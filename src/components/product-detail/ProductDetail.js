@@ -22,7 +22,7 @@ const ProductDetail = ({item={price:{}},categories=[]}) => {
                         </div>
                         <strong className="product-details-name">{item.title}</strong>
                         <div className="product-price mt-3">$ {formatPrice(item.price.amount)}<sup>{item.price.decimals}</sup></div>
-                        <button type="button" className="btn btn-primary flex-stretch mt-5">Comprar</button>
+                        <button type="button" className="btn btn-primary flex-stretch mt-5" onClick={()=>window.open(item.permalink)}>Comprar</button>
                     </div>                
                 </div>
             </article>

@@ -67,7 +67,8 @@ let getItemByIdResponse = (rawJSON,categories,description) => {
          item: {
              ...filterItems([rawJSON]).pop(),
              sold_quantity: rawJSON.sold_quantity,
-             description: description.plain_text
+             description: description.plain_text,
+             permalink: rawJSON.permalink
          }
      }
  };
